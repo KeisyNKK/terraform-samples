@@ -46,6 +46,10 @@ Importante to notice that the ENTRYPOINT has to be the outputed dll file from th
 
 `sudo docker build -t keisynkk/lubby .`
 
+If you face an error "is docker running" try:
+
+`systemctl start docker`
+
 Than the 11 stepts are related with the Dockerfile on Lubby folder. You can see your image with:
 
 `sudo docker image ls`
