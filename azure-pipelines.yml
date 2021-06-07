@@ -22,7 +22,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'kafka connection'
+        containerRegistry: 'lubbyservice'
         repository: 'keisynkk/lubby'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
